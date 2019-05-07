@@ -16,6 +16,7 @@ class Header extends Component {
 
   // Render the JSX
   render() {
+    const style = this.props.style;
     return (
         <View style={style.container}>
           <Text style={style.welcome}>Basic React Native App</Text>
