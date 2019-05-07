@@ -1,17 +1,37 @@
 // Import Components
 import React, { Component } from "react";
+import { connect } from "react-redux";
 import {
   Text,
   View,
   TouchableOpacity
 } from "react-native";
+import changeTheme from "../action/action";
 
+
+// Function to pass state as component's props
+function mapStateToProps(state) {
+  return { style: state.style };
+}
+
+// Function to dispatch actions in the component
+function mapDispatchToProps(dispatch) {
+  return {
+    changeTheme: () => dispatch(changeTheme())
+  };
+}
 
 // The Header Component with a clickable element 
-class Header extends Component {
+class ConnectedHeader extends Component {
 
   constructor(props) {
     super(props);
+    this.onPress = this.onPress.bind(this);
+  }
+
+  // Catch the press event to dispatch the actions
+  onPress(event) {
+    this.props.changeTheme();
   }
 
   // Render the JSX
@@ -29,5 +49,8 @@ class Header extends Component {
     );
   }
 }
+
+// Connect the component with the state and dispatch
+const Header = connect(mapStateToProps, mapDispatchToProps)(ConnectedHeader);
 
 export default Header;

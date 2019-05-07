@@ -1,5 +1,6 @@
 // Import Components
 import React, { Component } from "react";
+import { connect } from "react-redux";
 import {
     View,
     Text,
@@ -12,10 +13,15 @@ import {
 // Import the data
 import * as movies from "../data/Info.json";
 
+// Function to pass state as component's props
+function mapStateToProps(state) {
+    return { style: state.style };
+}
 
 // The component that listing movie in the list
-class MovieList extends Component {
+class ConnectedMovieList extends Component {
     render() {
+        const style = this.props.style;
         return(
 
             // Make a scroll experience with FlatList to load item only when scroll near its position
@@ -46,4 +52,5 @@ class MovieList extends Component {
     }
 }
 
+const MovieList = connect(mapStateToProps)(ConnectedMovieList);
 export default MovieList;
