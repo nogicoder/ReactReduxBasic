@@ -26,14 +26,14 @@ Before running the app, it is required that you have these packages installed lo
 - redux v4.0.1/ react-redux v7.0.3 (https://redux.js.org/introduction/installation)
 
 ## Setup
-To run this project, follow these steps:
-Step 1: Clone the repository locally
-Step 2: Open the Terminal and go inside the repository
-```cd mbach/```
-Step 3: Run the app on the simulator
+To run this project, follow these steps:  
+Step 1: Clone the repository locally  
+Step 2: Open the Terminal and go inside the repository  
+```cd mbach/```  
+Step 3: Run the app on the simulator  
 ```react-native run-ios```
 
 ## Instruction
-You can change the theme of the app between Light theme and Dark theme by clicking on the subtitle of the app ("Top Ten Movies of IMDB").
+You can change the theme of the app between Light theme and Dark theme by clicking on the subtitle of the app ("Top Ten Movies of IMDB").  
 Go to the IMDB page of each movie by clicking on the "More Info" button.
 
