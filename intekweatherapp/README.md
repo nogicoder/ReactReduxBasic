@@ -40,7 +40,7 @@ To run the version of this application without setting up Facebook environment, 
 -  Find the HomeScreen component of the app at 
 ```~/intekweatherapp/app/screens/HomeScreen.js```  
 - Comment out the FBLoginButton from the HomeScreen component  
-```(line 11) import FBLoginButton from "../components/FBLoginButton";```
+```(line 11) import FBLoginButton from "../components/FBLoginButton";```  
 ```(line 46) <FBLoginButton/>```
 
 ## Instruction
