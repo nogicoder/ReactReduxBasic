@@ -34,6 +34,8 @@ Step 3: Run the app on the simulator
 ```react-native run-ios```
 
 ## Instruction
-You can change the theme of the app between Light theme and Dark theme by clicking on the subtitle of the app ("Top Ten Movies of IMDB").  
+You can change the theme of the app between Light theme and Dark theme by clicking on the subtitle of the app ("Top Ten Movies of IMDB"). 
 Go to the IMDB page of each movie by clicking on the "More Info" button.
+
+Thank you very much for your time reading this document. Any feedback please response through my email: bach.mai@alumni.intek.edu.vn. Hope you have a good time with this app!
 
