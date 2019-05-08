@@ -22,7 +22,7 @@ const dark = StyleSheet.create({
         fontSize: 25,
         textAlign: "center",
         margin: 10,
-        color: "white"
+        color: "white",
     },
     weather: {
         flex: 1,
@@ -36,7 +36,6 @@ const dark = StyleSheet.create({
         borderWidth: 1,
         borderColor: "#00BFFF",
         width: 200,
-        marginTop: -10,
         height: 50,
         overflow: "hidden"
     },

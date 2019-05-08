@@ -36,7 +36,6 @@ const light = StyleSheet.create({
         borderWidth: 1,
         borderColor: "#00BFFF",
         width: 200,
-        marginTop: -10,
         height: 50,
         overflow: "hidden"
     },
