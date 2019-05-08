@@ -1,13 +1,13 @@
-export function changeStyle(payload) {
+// Defining actions 
+export function changeStyle() {
     return {
         type: "CHANGE_STYLE",
-        payload
     }
 }
 
-export function changeCity(payload) {
+export function changeCity(city) {
     return {
         type: "CHANGE_CITY",
-        payload
+        city
     }
 }

@@ -30,7 +30,7 @@ const dark = StyleSheet.create({
         alignItems: "center"
     },
     facebook: {
-        marginTop: 30
+        marginTop: 30,
     },
     city: {
         borderWidth: 1,
@@ -47,7 +47,7 @@ const dark = StyleSheet.create({
         fontSize: 20
     },
     picker: {
-        marginTop: -80,
+        marginTop: -100,
         width: "50%",
         height: 100,
     },
@@ -67,7 +67,8 @@ const dark = StyleSheet.create({
         fontSize: 25,
         textAlign: "center",
         color: "#005068",
-        fontWeight: "bold"
+        fontWeight: "bold",
+        backgroundColor: "white",
     },
     weatherImg: {
         width: "100%",

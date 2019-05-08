@@ -1,0 +1,5 @@
+// The API Key for fetching data from OpenWeatherAPI
+// This key can be obsoleted. Please replace with a new one when no data is displayed
+{
+    "id": "0b4b7077fb172cd07d7a0b1f1e34920d"
+}
